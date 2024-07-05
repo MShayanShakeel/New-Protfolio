@@ -431,9 +431,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
   margin-bottom: 24px;
+}
+.proj-imgbx img {
+  width: 100%;
+  min-height: 38vh;
+  max-height: 42vh;
 }
 .proj-imgbx::before {
   content: "";
@@ -663,6 +668,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   gap: 2rem;
 }
-.Education svg{
+.Education svg {
   font-size: 4rem;
 }
