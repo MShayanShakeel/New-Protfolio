@@ -12,6 +12,8 @@ import projImg9 from "../assets/img/SSimg8.PNG";
 import projImg10 from "../assets/img/SSimg9.PNG";
 import projImg11 from "../assets/img/SSimg11.PNG";
 import projImg12 from "../assets/img/SSimg12.PNG";
+import projImg13 from "../assets/img/TwitterClonePicture.jpg";
+import projImg14 from "../assets/img/FoodDelevire.jpg";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
@@ -76,6 +78,12 @@ export const Projects = () => {
       link: "https://mern-front-end-only.vercel.app/",
     },
     {
+      title: "Twitter-Clone Project",
+      description: "A Twitter clone project developed using React.js, featuring functionality for uploading pictures, with backend integration using Firebase for storing and managing user uploads",
+      imgUrl: projImg13,
+      link: "https://twitter-clone-olive-seven.vercel.app/",
+    },
+    {
       title: "RMI surfaces",
       description: "A mobile-responsive website developed using plain HTML and CSS, showcasing a clean design and smooth user experience.",
       imgUrl: projImg8,
@@ -92,6 +100,12 @@ export const Projects = () => {
       description: "A project developed using Angular 17, Firebase, and Angular authentication, offering secure and efficient code management and sharing features.",
       imgUrl: projImg10,
       link: "https://bin-application-6c92e.web.app/singup",
+    },
+    {
+      title: "Food Reminder",
+      description: "A project developed using React, LocalStorage, Select food and also selecct food then they remind u.",
+      imgUrl: projImg14,
+      link: "https://weekly-scadule-food-app.vercel.app/",
     },
     {
       title: "Authentication Form",
@@ -142,12 +156,20 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="section">
                         <div className="Education">
+                          <FaReact /> <h1>Loudly Dev Global Solutions</h1></div>
+                        <p>Front-End-Developer [ 2024 - Present ]</p>
+                        <hr className="horizontal-line" />
+                        <div className="Education">
                           <FaReact /> <h1>TechOn Vendture</h1></div>
-                        <p>Front-End-Developer [ 2023 - Present ]</p>
+                        <p>Junior MERN Stack Developer [ 2023 - 2024 ]</p>
                         <hr className="horizontal-line" />
                         <div className="Education">
                           <FaReact /> <h1>Techno Mide</h1></div>
-                        <p>As Front-End Intern [ 4/2023 - 6/2023 ]</p>
+                        <p>As Front-End-Developer Intern [ 4/2023 - 6/2023 ]</p>
+                        <hr className="horizontal-line" />
+                        <div className="Education">
+                          <FaReact /> <h1>Smash Code</h1></div>
+                        <p>As Front-End-Developer Intern [ 1/2023 - 3/2023 ]</p>
                         <hr className="horizontal-line" />
                         <div className="Education">
                           <FaWordpress /> <h1>UnityTeck</h1></div>
