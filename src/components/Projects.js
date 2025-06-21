@@ -15,6 +15,8 @@ import projImg12 from "../assets/img/SSimg12.PNG";
 import projImg13 from "../assets/img/TwitterClonePicture.jpg";
 import projImg14 from "../assets/img/FoodDelevire.jpg";
 import FlyConnection from "../assets/img/FlyConnection.PNG";
+import ifbc from "../assets/img/ifbc.PNG";
+import mlmifbc from "../assets/img/mlmifbc.PNG";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
@@ -27,6 +29,21 @@ import { PiCertificateBold } from "react-icons/pi";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "IFBC.CO",
+      description:
+        "The website supports franchise sales, visa services (V2), team building, and ambassador roles. It combines opportunity and growth tools in a professional, user-focused layout.",
+      imgUrl: ifbc,
+      link: "https://ifbc.co/",
+    },
+    {
+      title: "IFBC Members Portal ",
+      description:
+        "Members Portal offers a clean UI with detailed user profiles and information access. Built for consultants and team members, it centralizes user data but may still require backend integration.",
+      imgUrl: mlmifbc,
+      link: "https://members.ifbc.co/home",
+    },
+
     {
       title: "Fly Connection",
       description:
