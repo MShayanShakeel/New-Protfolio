@@ -212,9 +212,9 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="section">
                         <div className="Education">
-                          <FaReact /> <h1>Loudly Dev Global Solutions</h1>
+                          <FaReact /> <h1>Xpert Digital</h1>
                         </div>
-                        <p>Front-End-Developer [ 2024 - Present ]</p>
+                        <p>software Engineer [ 2025 - Present ]</p>
                         <hr className="horizontal-line" />
                         <div className="Education">
                           <FaReact /> <h1>TechOn Vendture</h1>
